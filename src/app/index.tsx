@@ -11,5 +11,9 @@ const container = document.querySelector('#root') as HTMLElement
 const root = ReactDOM.createRoot(container)
 
 appStarted()
-root.render(<React.StrictMode><App /></React.StrictMode>)
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
 // Remove "React.StrictMode" at prod and just leave "App" inside render

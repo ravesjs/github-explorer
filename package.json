@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "github-explorer",
   "version": "1.0.0",
   "description": "",
   "main": "index.tsx",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ravesjs/template"
+    "url": "git@github.com:ravesjs/github-explorer"
   },
   "devDependencies": {
     "@babel/core": "7.23.7",
@@ -60,6 +60,7 @@
     "@farfetched/dev-tools": "^0.12.4",
     "atomic-router": "^0.10.1",
     "atomic-router-react": "^0.10.0",
+    "axios": "^1.7.2",
     "effector": "^23.2.2",
     "effector-logger": "^0.15.0",
     "effector-react": "^23.2.1",

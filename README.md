@@ -1,38 +1,27 @@
-# React, TypeScript, Effector & patronum & Farfetched & Atomic router, css modules, scss, webpack configuration
+# Github Explorer репозиториев или пользователей
+![explorer](https://github.com/ravesjs/github-explorer/blob/main/image/explorer.png)
+
+ В зависимости от того, что выбрано в селекте,
+ при отправке формы приложение делает запрос
+ на один из следующих эндпоинтов:
+
+ https://api.github.com/users/${nickname}
+ пример значений: defunkt, ktsn, jjenzz, ChALkeR, Haroenv
+
+ https://api.github.com/repos/${repo}
+ пример значений: nodejs/node, radix-ui/primitives, sveltejs/svelte
+
+ после чего, в списке ниже выводится полученная информация;
+ - если это юзер, то его full name и число репозиториев;
+ - если это репозиторий, то его название и число звезд.
 ## Инструкция
 
-1. Клонируй репозиторий
+  ### Клонируйте репозиторий
+
     ```bash
-    git clone https://github.com/ravesjs/template
+    git clone https://github.com/ravesjs/github-explorer
     ```
-     
-2.  Удали старую ссылку
-    ```bash
-    git remote remove origin  
-    ```
-3. Инициализация  
-    ```bash
-    git init
-    ```
-    
-    ```bash
-    git add .
-    ```
-    
-    ```bash
-    git commit -m 'smth'
-    ```
-    
- 4. Создай новый репозиторий
-    
-    ```bash
-    git remote add origin <URL-of-your-repository>  
-    ```
- 5. Примени изменения   
-    ```bash
-    git push -u origin main
-    ```
-    
+
     ## Установка
     
     Install package.json devDependencies  

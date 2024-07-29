@@ -4,8 +4,7 @@ import { appStarted } from './init'
 import { sample } from 'effector'
 
 export const routes = {
-	home: createRoute(),
-	favorites: createRoute(),
+	home: createRoute()
 	// sections: {
   //  overview: createRoute(),
   //  users: createRoute<{ accountId: string }>(), 
@@ -18,10 +17,6 @@ export const router = createHistoryRouter({
 		{
 			path: '/',
 			route: routes.home  // можно создать динамический роут, в "routes" вложеннее сделать и массивом route: [routes.home, section.users]
-		},
-		{
-			path: '/favorites',
-			route: routes.favorites
 		},
 	],
 	controls,

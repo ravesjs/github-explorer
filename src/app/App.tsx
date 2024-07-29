@@ -1,16 +1,14 @@
 import React from 'react'
 import { RouterProvider, createRoutesView } from 'atomic-router-react'
 import { router, routes } from '@/shared/config/routing'
-//import Thing from '@/entities/thing' пример импорта по fsd
-
+import HomePage from '@/pages/home'
 
 const RoutesView = createRoutesView({
   routes: [
-    {route: routes.home, view: HomePage, layout: Layout},
-    {route: routes.favorites, view: FavoritesPage, layout: Layout},
+    { route: routes.home, view: HomePage }
   ],
   otherwise() {
-    return <div>Page not found!</div>;
+    return <div>Page not found!</div>
   },
 })
 
