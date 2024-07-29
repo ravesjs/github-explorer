@@ -1,7 +1,7 @@
 import React, { useState, FC, FormEvent, ChangeEvent } from 'react'
-import Text from '@/entities/text'
-import Select from '@/entities/select'
-import type { SelectOption } from '@/entities/select'
+import Text from '@/shared/ui/text'
+import Select from '@/shared/ui/select'
+import type { SelectOption } from '@/shared/ui/select'
 import { FetchParams, FormProps } from '../../model/types'
 
 const Form: FC<FormProps> = ({ onSubmit }) => {
