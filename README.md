@@ -1,4 +1,4 @@
-# Github Explorer репозиториев или пользователей
+# Github Explorer
 ![explorer](https://github.com/ravesjs/github-explorer/blob/main/image/explorer.png)
 
  В зависимости от того, что выбрано в селекте,
