@@ -16,15 +16,15 @@
  - если это репозиторий, то его название и число звезд.
 ## Инструкция
 
-  ### Клонируйте репозиторий
-
+1. Клонируйте репозиторий
+    
     ```bash
     git clone https://github.com/ravesjs/github-explorer
     ```
 
     ## Установка
     
-    Install package.json devDependencies  
+2. Установите зависимости
     ```bash
     npm install
     ```
@@ -33,7 +33,6 @@
     ```bash
     npm start
     ```
-    
     ### Production
     
     ```bash
