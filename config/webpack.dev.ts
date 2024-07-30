@@ -16,14 +16,14 @@ const dev: Configuration = {
   module: {
     rules: [
       {
-        test: /\.(sass|scss|css)$/i,
+        test: /\.(sa|sc|c)ss$/i,
         use: [
           'style-loader',
           {
             loader: 'css-loader',
             options: {
               sourceMap: true,
-              importLoaders: 1,
+              importLoaders: 2,
               modules: true,
             },
           },
