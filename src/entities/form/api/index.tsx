@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import Result from '@/entities/result'
-import type { ResultData } from '@/entities/result'
-import { Form, User, Repo, FetchParams } from '@/entities/form'
+import Result from '@/features/result'
+import type { ResultData } from '@/features/result'
+import type { User, Repo, FetchParams } from '@/entities/form'
+import { Form } from '@/entities/form'
 import styles from '../ui/Form/Form.module.scss'
 
 function Endpoint() {

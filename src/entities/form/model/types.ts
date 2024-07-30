@@ -1,4 +1,4 @@
-import { SelectOption } from '@/entities/select'
+import { SelectOption } from '@/shared/ui/select'
 
 export interface User {
   name: string
