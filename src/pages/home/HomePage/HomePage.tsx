@@ -1,5 +1,5 @@
 import React from 'react'
-import Endpoint from '@/entities/form'
+import Endpoint from '@/features/form'
 
 const HomePage = () => (
   <>

@@ -8,6 +8,8 @@
 form {
   position: relative;
   text-align: center;
+  width: 200px;
+  height: 85px;
 }
 form::before {
   content: '';
@@ -18,7 +20,6 @@ form::before {
   border-radius: 5px;
 }
 button {
-  margin-right: 27px;
   margin-bottom: 5px;
   width: 60px;
   height: 18px;

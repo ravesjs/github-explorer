@@ -1,5 +1,5 @@
 import Result from './ui/Result/Result'
-import type { ResultData } from './model/types'
+import type { Results } from './model/types'
 
+export { Results }
 export default Result
-export type { ResultData }

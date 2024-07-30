@@ -1,9 +1,9 @@
 import React from 'react'
-import { ResultProps } from '../../model/types'
-import { Repo, User } from '@/entities/form'
+import { Results } from '../../model/types'
 import styles from './Result.module.scss'
+import { Repo, User } from '@/features/form'
 
-function Result({ result }: ResultProps) {
+function Result({ result }: { result: Results }) {
   if ('public_repos' in result) {
     const user = result as User
     return (
@@ -15,7 +15,6 @@ function Result({ result }: ResultProps) {
       </div>
     )
   }
-
   if ('stargazers_count' in result) {
     const repo = result as Repo
     return (
@@ -27,7 +26,6 @@ function Result({ result }: ResultProps) {
       </div>
     )
   }
-
   return null
 }
 
