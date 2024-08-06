@@ -16,7 +16,7 @@ const dev: Configuration = {
   module: {
     rules: [
       {
-        test: /\.(sa|sc|c)ss$/i,
+        test: /\module\.(sass|scss|css)$/i,
         use: [
           'style-loader',
           {
