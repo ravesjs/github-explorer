@@ -24,11 +24,23 @@ const dev: Configuration = {
             options: {
               sourceMap: true,
               importLoaders: 2,
-              modules: true,
+              modules: {
+                localIdentName: '[path][name]__[local]--[hash:base64:5]',
+              },
             },
           },
           { loader: 'postcss-loader', options: { sourceMap: true } },
           { loader: 'sass-loader', options: { sourceMap: true } },
+        ],
+      },
+      {
+        test: /\.(sass|scss|css)$/i,
+        exclude: /\.module\.(sass|scss|css)$/i,
+        use: [
+          'style-loader',
+          'css-loader',
+          'postcss-loader',
+          'sass-loader',
         ],
       },
     ],
