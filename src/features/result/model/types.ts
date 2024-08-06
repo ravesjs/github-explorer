@@ -1,3 +1,3 @@
-import { ResultData } from '@/features/form'
+import { ResultData } from '@features/form'
 
 export type Results = Exclude<ResultData, null>

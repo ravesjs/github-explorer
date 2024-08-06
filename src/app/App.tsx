@@ -1,7 +1,7 @@
 import React from 'react'
 import { RouterProvider, createRoutesView } from 'atomic-router-react'
-import { router, routes } from '@/shared/config/routing'
-import HomePage from '@/pages/home'
+import { router, routes } from '@shared/config/routing'
+import HomePage from '@pages/home'
 
 const RoutesView = createRoutesView({
   routes: [

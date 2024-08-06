@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import Result from '@/features/result'
-import type { FetchParams, ResultData } from '@/features/form'
-import { fetchData, Form } from '@/features/form'
-import styles from '@/features/form/ui/Form/Form.module.scss'
+import Result from '@features/result'
+import type { FetchParams, ResultData } from '@features/form'
+import { fetchData, Form } from '@features/form'
+import styles from '@features/form/ui/Form/Form.module.scss'
 
 function Endpoint() {
   const [result, setResult] = useState<ResultData>(null)

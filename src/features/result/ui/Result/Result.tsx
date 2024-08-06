@@ -1,7 +1,7 @@
 import React from 'react'
 import { Results } from '../../model/types'
 import styles from './Result.module.scss'
-import { Repo, User } from '@/features/form'
+import { Repo, User } from '@features/form'
 
 function Result({ result }: { result: Results }) {
   if ('public_repos' in result) {
